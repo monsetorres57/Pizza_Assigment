@@ -12,6 +12,14 @@
 		B020D2D71DB49487009F9671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B020D2D51DB49487009F9671 /* Main.storyboard */; };
 		B020D2D91DB49487009F9671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B020D2D81DB49487009F9671 /* Assets.xcassets */; };
 		B020D2DC1DB49487009F9671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B020D2DA1DB49487009F9671 /* LaunchScreen.storyboard */; };
+		B020D2E61DB4993F009F9671 /* fat_transparent_shadowless.png in Resources */ = {isa = PBXBuildFile; fileRef = B020D2E51DB4993F009F9671 /* fat_transparent_shadowless.png */; };
+		B020D2E81DB49F68009F9671 /* continuar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B020D2E71DB49F68009F9671 /* continuar.jpeg */; };
+		B0297D1D1DB4A96900F6DEA1 /* TamanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0297D1C1DB4A96900F6DEA1 /* TamanoViewController.swift */; };
+		B0297D1F1DB4B15700F6DEA1 /* MasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0297D1E1DB4B15700F6DEA1 /* MasaViewController.swift */; };
+		B09C96B01DB60DDD003F275B /* btnTerminar.png in Resources */ = {isa = PBXBuildFile; fileRef = B09C96AF1DB60DDD003F275B /* btnTerminar.png */; };
+		B09C96B21DB611B1003F275B /* ConfirmarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09C96B11DB611B1003F275B /* ConfirmarViewController.swift */; };
+		B09C96B41DB615AE003F275B /* IngViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09C96B31DB615AE003F275B /* IngViewController.swift */; };
+		B0F8C87E1DB602A60041F663 /* QuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8C87D1DB602A60041F663 /* QuesoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		B020D2D81DB49487009F9671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B020D2DB1DB49487009F9671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B020D2DD1DB49487009F9671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B020D2E51DB4993F009F9671 /* fat_transparent_shadowless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fat_transparent_shadowless.png; path = ../fat_transparent_shadowless.png; sourceTree = "<group>"; };
+		B020D2E71DB49F68009F9671 /* continuar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = continuar.jpeg; sourceTree = "<group>"; };
+		B0297D1C1DB4A96900F6DEA1 /* TamanoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TamanoViewController.swift; path = ../TamanoViewController.swift; sourceTree = "<group>"; };
+		B0297D1E1DB4B15700F6DEA1 /* MasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaViewController.swift; sourceTree = "<group>"; };
+		B09C96AF1DB60DDD003F275B /* btnTerminar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnTerminar.png; sourceTree = "<group>"; };
+		B09C96B11DB611B1003F275B /* ConfirmarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarViewController.swift; sourceTree = "<group>"; };
+		B09C96B31DB615AE003F275B /* IngViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngViewController.swift; sourceTree = "<group>"; };
+		B0F8C87D1DB602A60041F663 /* QuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +72,18 @@
 			children = (
 				B020D2D11DB49487009F9671 /* AppDelegate.swift */,
 				B020D2D31DB49487009F9671 /* ViewController.swift */,
+				B0297D1C1DB4A96900F6DEA1 /* TamanoViewController.swift */,
 				B020D2D51DB49487009F9671 /* Main.storyboard */,
+				B020D2E51DB4993F009F9671 /* fat_transparent_shadowless.png */,
+				B020D2E71DB49F68009F9671 /* continuar.jpeg */,
+				B09C96AF1DB60DDD003F275B /* btnTerminar.png */,
 				B020D2D81DB49487009F9671 /* Assets.xcassets */,
 				B020D2DA1DB49487009F9671 /* LaunchScreen.storyboard */,
 				B020D2DD1DB49487009F9671 /* Info.plist */,
+				B0297D1E1DB4B15700F6DEA1 /* MasaViewController.swift */,
+				B0F8C87D1DB602A60041F663 /* QuesoViewController.swift */,
+				B09C96B11DB611B1003F275B /* ConfirmarViewController.swift */,
+				B09C96B31DB615AE003F275B /* IngViewController.swift */,
 			);
 			path = PedidoPizza;
 			sourceTree = "<group>";
@@ -123,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B020D2DC1DB49487009F9671 /* LaunchScreen.storyboard in Resources */,
+				B020D2E61DB4993F009F9671 /* fat_transparent_shadowless.png in Resources */,
+				B09C96B01DB60DDD003F275B /* btnTerminar.png in Resources */,
 				B020D2D91DB49487009F9671 /* Assets.xcassets in Resources */,
 				B020D2D71DB49487009F9671 /* Main.storyboard in Resources */,
+				B020D2E81DB49F68009F9671 /* continuar.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0297D1F1DB4B15700F6DEA1 /* MasaViewController.swift in Sources */,
 				B020D2D41DB49487009F9671 /* ViewController.swift in Sources */,
+				B09C96B21DB611B1003F275B /* ConfirmarViewController.swift in Sources */,
 				B020D2D21DB49487009F9671 /* AppDelegate.swift in Sources */,
+				B09C96B41DB615AE003F275B /* IngViewController.swift in Sources */,
+				B0297D1D1DB4A96900F6DEA1 /* TamanoViewController.swift in Sources */,
+				B0F8C87E1DB602A60041F663 /* QuesoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +318,7 @@
 				B020D2E21DB49487009F9671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
